@@ -1,5 +1,23 @@
 """
-Plik ten zajmuje się...
+    A class to manage an inventory.
+
+    Attributes
+    ----------
+    items:  dict[str, int]
+        inventory
+
+    Methods
+    -------
+    __init__()
+        creates an empty inventory
+    add_item(item: str, quantity: int)
+        adds certain amount of the item into the inventory
+    remove_item(item: str, quantity: int)
+        removes certain amount of the item from the inventory
+    clear_inventory()
+        empties the inventory
+    __str__()
+        defines how the objected will be printed out
 """
 
 
