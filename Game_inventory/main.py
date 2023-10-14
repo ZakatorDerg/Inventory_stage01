@@ -1,3 +1,10 @@
+"""
+Welcome to the inventory manager
+(to be continueddd)
+
+"""
+
+
 from inventory import Inventory
 
 
@@ -12,7 +19,7 @@ def get_int(message: str) -> int:
 def main():
     inventory = Inventory()
     a = 0
-    while a != 3:
+    while a != 4:
         print('Witaj w ekwipunku gracza, wybierz opcję')
         print('------------------')
         print(inventory)
@@ -20,6 +27,7 @@ def main():
         print('1 - dodaj przedmiot do Twojego ekwipunku')
         print('2 - usuń przedmiot z Twojego ekwipunku')
         print('3 - usuń wszystkie przedmioty')
+        print('4 - koniec programu')
         a = int(input())
         match a:
             case 1:
