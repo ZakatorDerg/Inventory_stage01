@@ -1,7 +1,6 @@
 """
 Welcome to the inventory manager
 (to be continueddd)
-
 """
 
 
